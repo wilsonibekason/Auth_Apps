@@ -25,3 +25,28 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+.pattern-lock-container {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.pattern-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 50px);
+  grid-gap: 10px;
+  width: 160px;
+  margin: 0 auto;
+}
+
+.pattern-node {
+  width: 50px;
+  height: 50px;
+  background-color: #ccc;
+  border: 1px solid #999;
+  cursor: pointer;
+}
+
+.pattern-node.selected {
+  background-color: #4caf50;
+}
