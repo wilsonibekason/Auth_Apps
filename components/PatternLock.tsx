@@ -75,7 +75,7 @@ const PatternLock: React.FC = () => {
                 }`}
                 onClick={() => handleNodeClick(index)}
               >
-                {clickCount + 1}
+                {index}
               </div>
             ))}
           </div>
