@@ -1,7 +1,7 @@
 "use client";
 
 import "./globals.css";
-import type { Metadata } from "next";
+// import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import { Toaster } from "react-hot-toast";
 import { FpjsProvider } from "@fingerprintjs/fingerprintjs-pro-react";
@@ -9,10 +9,10 @@ import { Auth0Provider } from "@auth0/auth0-react";
 
 const inter = Inter({ subsets: ["latin"] });
 
-export const metadata: Metadata = {
-  title: " Onyaneucheya Maryjane Onyinye",
-  description: " Design And Implementation of Multi Factor Security System",
-};
+// export const metadata: Metadata = {
+//   title: " Onyaneucheya Maryjane Onyinye",
+//   description: " Design And Implementation of Multi Factor Security System",
+// };
 
 // const domain = process.env.NEXT_APP_AUTH0_DOMAIN as string;
 // const client_Id = process.env.NEXT_APP_AUTH0_CLIENT_ID as string;
