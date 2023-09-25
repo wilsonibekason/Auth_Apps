@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@auth0/auth0-react": "^2.2.1",
+    "@auth0/nextjs-auth0": "^3.1.0",
     "@fingerprintjs/fingerprintjs-pro-react": "^2.5.1",
     "@types/node": "20.6.2",
     "@types/react": "18.2.22",
